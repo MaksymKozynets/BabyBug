@@ -3,9 +3,8 @@
 :root {
     --background-color: #261931;
     --text-color: #E8D67C;
-    ;
     scroll-behavior: smooth;
-    font-family: 'Playball', cursive; 
+    --font-family: 'Playball', cursive; 
 }
 
 body {
@@ -26,11 +25,13 @@ header .logo {
 }
 header .nav-btn {
     display: flex;
-    justify-items: space-between;
     align-items: center;
 }
 
 header .nav-btn a {
     text-decoration: none;
     color: var(--text-color);
+    margin: 52px;
+    font-size: 24px;
+    font-family:var(--font-family) ;
 }
