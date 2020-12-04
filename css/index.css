@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+/* Header */
 .header-iner {
 display: flex;
 justify-content: space-between;
@@ -64,8 +65,35 @@ margin-left: 40px;
 
 .line{
     display: flex;
-    max-width: 1024px;
-    
+    max-width: 1024px; 
 }
 
+/* Mein content*/
 
+.item-text{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.text {
+    font-family: var(--font-family);
+    font-size: 72px;
+    font-weight: 400;
+    color: var(--background-color);
+}
+
+/*Product Card*/
+.product-card {
+display: flex;
+justify-content: space-between;
+margin-top: 75px;
+}
+
+.card-body {
+}
+.card-title{
+    font-family: var(--font-family);
+    font-size: 24px;
+    color: black; 
+}
